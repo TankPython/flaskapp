@@ -1,0 +1,305 @@
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+ERROR demo2.py:6 error info
+WARNING demo2.py:7 warn info
+INFO demo2.py:8 info info
+DEBUG demo2.py:9 debug info
+INFO _internal.py:87 127.0.0.1 - - [28/Jan/2018 15:45:26] "GET /api/v1.0/index HTTP/1.1" 200 -
+ERROR demo2.py:6 error info
+WARNING demo2.py:7 warn info
+INFO demo2.py:8 info info
+DEBUG demo2.py:9 debug info
+INFO _internal.py:87 127.0.0.1 - - [28/Jan/2018 15:45:27] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+ERROR demo2.py:6 error info
+WARNING demo2.py:7 warn info
+INFO demo2.py:8 info info
+DEBUG demo2.py:9 debug info
+INFO _internal.py:87 127.0.0.1 - - [28/Jan/2018 15:47:17] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/demo2.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+ERROR demo2.py:22 error info
+WARNING demo2.py:23 warn info
+INFO demo2.py:24 info info
+DEBUG demo2.py:25 debug info
+INFO _internal.py:87 127.0.0.1 - - [28/Jan/2018 15:48:56] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/demo2.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/demo2.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 328-795-710
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 14:51:27] "GET /verify/555 HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 14:58:49] "GET /verify/555 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 14:58:57] "GET /verify/555 HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:16] "GET /api/v1.0/verify/ddd HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:16] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:16] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:16] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:17] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:05:18] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:19] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:08:21] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:10:39] "GET /api/v1.0/verify/ddd HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:10:39] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:10:39] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:10:39] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:10:39] "GET /api/v1.0/verify/ddd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 15:11:10] "GET /api/v1.0/verify/ddd HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:24:20] "GET /api/v1.0/verify/ddd HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:25:01] "GET /api/v1.0/img_code/44 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:25:04] "GET /api/v1.0/img_code/44 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:25:20] "GET /api/v1.0/img_codes/44 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:26:12] "GET /api/v1.0/img_codes/44 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:26:24] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:27:03] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:27:04] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:27:07] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:27:17] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:30:47] "GET /api/v1.0/img_codes/4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:30:52] "GET /api/v1.0/img_codes/6 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 21:30:56] "GET /api/v1.0/img_codes/7 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:40] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/images/home02.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/images/home03.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:43] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:44] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:52] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:52] "GET /static/js/ihome/register.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:52] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:53] "GET /api/v1.0/img_codes/fa6c2073-9a35-4c32-9543-ff9d2fb25ab4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:57] "GET /api/v1.0/img_codes/afe65974-c7ac-430f-95d9-cc42459833c7 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:58] "GET /api/v1.0/img_codes/35faecc3-e8ff-4508-ba5b-0ce903033dfb HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:59] "GET /api/v1.0/img_codes/3e151eb3-d512-4f78-87dc-4d8d40073803 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:28:59] "GET /api/v1.0/img_codes/eb63c297-44c8-4275-86db-a323ec5982ea HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:00] "GET /api/v1.0/img_codes/cb427b57-33cd-4381-bf5b-3144eef5fb24 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:01] "GET /api/v1.0/img_codes/2a5fa29a-df3b-4603-923c-4e5bb59ec56e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:01] "GET /api/v1.0/img_codes/f8d408f9-4c9c-41b9-9c95-bcd88ac7ef5c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:01] "GET /api/v1.0/img_codes/7432264d-ab67-421a-ae82-2f35feabbd81 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:01] "GET /api/v1.0/img_codes/3f9bd4c2-f980-423d-ae91-c99962fadf08 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:01] "GET /api/v1.0/img_codes/8fcb8fc9-0bd9-4ac2-a240-224c0ce06fa7 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/341fefe2-2a7f-41df-93ac-35b4b7f0cd0a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/cd474e79-3504-40b7-9eed-700fc700a05c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/a2d9f747-8364-403f-96eb-9e037df70d73 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/ffb897dd-0bb2-4d34-9ed2-cb67fb9dd50e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/23f30eda-7d97-4f0e-8a28-08273c4a99f3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:29:02] "GET /api/v1.0/img_codes/b9ffab35-cfdc-48f4-9c5a-249eaf535671 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:31:02] "GET /api/v1.0/img_codes/13b6516e-42e5-4766-870d-0566841ff48d HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:37:55] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:37:56] "GET /api/v1.0/img_codes/374a0006-bdc3-4427-aa67-09429bdfafc2 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:19] "GET /register.htm HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:23] "GET /api/v1.0/img_codes/1ff808fb-ab76-4859-ad2c-aeb0ec144835 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:24] "GET /api/v1.0/img_codes/62eb66c5-ac7a-4b3a-aa01-18e2279d60ac HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:25] "GET /api/v1.0/img_codes/1446a3cd-6218-413a-994c-15daf3b0609e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:25] "GET /api/v1.0/img_codes/e405bc1c-1fec-4db4-affe-abacb6244b7d HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:25] "GET /api/v1.0/img_codes/27820244-c8e4-4209-bb4b-7ac83d96978a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:25] "GET /api/v1.0/img_codes/9d073e03-c69a-418e-9823-4e2230868425 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:25] "GET /api/v1.0/img_codes/b2f5a0ef-a7c5-4155-9010-3c105f12b3ad HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:26] "GET /api/v1.0/img_codes/c574b905-04df-46cf-9b71-d6bbf93e630b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:26] "GET /api/v1.0/img_codes/28638505-a160-409f-9ccf-7cc83abd950c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:26] "GET /api/v1.0/img_codes/7f4eaccb-00c0-4138-a555-475fff007c2c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:26] "GET /api/v1.0/img_codes/f19c4583-5a48-43bb-8b4b-75b03c45797c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:26] "GET /api/v1.0/img_codes/e4518000-a8d8-4343-bcb3-d06f6bdbb4f1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:27] "GET /api/v1.0/img_codes/65fbb2fd-e776-4f1f-9502-42983bc88205 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:27] "GET /api/v1.0/img_codes/192e4cf1-d7db-4063-b66b-7cebb9196163 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:27] "GET /api/v1.0/img_codes/1a2ae40e-ad2d-4d17-8bd7-a5dab59bafa2 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:53] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:38:53] "GET /api/v1.0/img_codes/ed6e175e-4a06-4e16-9b05-1978b5d8b453 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:39:01] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/js/ihome/register.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:05] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:06] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:10] "GET /api/v1.0/img_codes/dfb375d1-df80-4d71-9af1-562ff2e962cb HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:12] "GET /api/v1.0/img_codes/22aa19b1-16c3-448b-beb8-8b5f0154a283 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:12] "GET /api/v1.0/img_codes/943ca593-3e9b-4e6f-bab0-2b161f10a4e0 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:13] "GET /api/v1.0/img_codes/c726f84b-4dfb-42de-b5b7-362ee49a07bc HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:13] "GET /api/v1.0/img_codes/9efd4a2d-ad74-47c9-a778-5aa47158bdcf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:13] "GET /api/v1.0/img_codes/3c5f6324-8959-4d71-8325-77bc8da37d10 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:15] "GET /api/v1.0/img_codes/e8d70337-c85a-48e9-a2ee-2c8393eaca09 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:16] "GET /api/v1.0/img_codes/c85d04cc-1bf6-42cd-8ac1-cc112500694b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:16] "GET /api/v1.0/img_codes/4105333b-a090-42dd-b32e-b8236338630c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:27] "GET /api/v1.0/image_codes/128 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:30] "GET /api/v1.0/image_codes/128 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:32] "GET /api/v1.0/image_codes/128 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:33] "GET /api/v1.0/image_codes/128 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:37] "GET /api/v1.0/image_codes/12 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:40:52] "GET /api/v1.0/image_codes/123 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:41:15] "GET /api/v1.0/img_codes/123 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:41:57] "GET /api/v1.0/img_codes/123 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/images/home01.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/images/home02.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/images/home03.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:13] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:16] "GET /register HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:18] "GET /register HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:29] "GET /api/v1.0/img_codes/176cd461-3890-4275-a874-19e206e5fd78 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:29] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:31] "GET /api/v1.0/img_codes/01788308-8b83-4f56-84a1-0e6f4037799f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:32] "GET /api/v1.0/img_codes/986d8d36-b01d-4048-9157-114e2db05ef3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:56] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:42:57] "GET /api/v1.0/img_codes/a676201b-cbca-4f9b-8732-9613d11c8f7f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:43:03] "GET /api/v1.0/img_codes/a676201b-cbca-4f9b-8732-9613d11c8f7f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:43:28] "GET /api/v1.0/img_codes/a676201b-cbca-4f9b-8732-9613d11c8f7f HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:43:55] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:43:56] "GET /api/v1.0/img_codes/0f926fbe-a9c2-478e-8f4b-aa978c6a06a0 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:43:59] "GET /api/v1.0/img_codes/0f926fbe-a9c2-478e-8f4b-aa978c6a06a0 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:44:57] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:44:57] "GET /api/v1.0/img_codes/5e24cc34-04e9-4692-adc9-98890530c4d1 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/flask0000/flask_tryagain/04/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 225-739-483
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:09] "GET /111.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:09] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:15] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:23] "GET /111.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:23] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:44] "GET /111.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:47:44] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:03] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:08] "GET /api/v1.0/img_codes/111/ HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:13] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:24] "GET /111.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:24] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:29] "GET /111.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:29] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:31] "GET /111.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:31] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:40] "GET /111.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:49:40] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:28] "GET /111.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:28] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:39] "GET /111.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:39] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:43] "GET /api/v1.0/img_codes/6bae8a9e-95c9-4f3b-948a-073e068823c8 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Jan/2018 22:51:54] "GET /api/v1.0/img_codes/111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:44] "GET /api/v1.0/img_codes/1b86a001-2298-4ae5-b072-7bf1469fc32d HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:45] "GET /register.htm HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:46] "GET /api/v1.0/img_codes/bd0d7001-091a-4fd5-a9f1-164a8cc02092 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:48] "GET /api/v1.0/img_codes/93180042-8f10-45e2-a581-9549b0fe6949 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:50] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [31/Jan/2018 09:58:50] "GET /api/v1.0/img_codes/df16a212-2a60-4f11-a127-a42e9f88e5e6 HTTP/1.1" 200 -

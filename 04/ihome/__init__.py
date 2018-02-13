@@ -53,6 +53,5 @@ def Create_app(config_name):
     from ihome import web_html
     app.register_blueprint(web_html.html)
 
-
     return app
 

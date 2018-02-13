@@ -3,9 +3,9 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-var imageCodeId = "";
 
-function generateUUID() {
+
+function generateUUID(){
     var d = new Date().getTime();
     if(window.performance && typeof window.performance.now === "function"){
         d += performance.now(); //use high-precision timer if available
@@ -19,10 +19,10 @@ function generateUUID() {
 }
 
 function generateImageCode() {
-
     var uuid = generateUUID();
     src = "/api/v1.0/img_codes/"+uuid;
-    $(".input-group-addon img").attr("src",src)
+    $(".input-group-addon img").attr("src",src);
+    $(".input-group-addon img").attr("id",uuid)
 
 }
 
@@ -42,7 +42,8 @@ function sendSMSCode() {
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     }
-    $.get("/api/smscode", {mobile:mobile, code:imageCode, codeId:imageCodeId}, 
+    var imageCodeId = $(".input-group-addon img").attr("id");
+    $.get("/smscode/"+mobile, {code:imageCode, codeId:imageCodeId},
         function(data){
             if (0 != data.errno) {
                 $("#image-code-err span").html(data.errmsg); 

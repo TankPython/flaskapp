@@ -3,8 +3,6 @@ function getCookie(name) {
     return r ? r[1] : undefined;
 }
 
-
-
 function generateUUID(){
     var d = new Date().getTime();
     if(window.performance && typeof window.performance.now === "function"){
@@ -34,7 +32,7 @@ function sendSMSCode() {
         $("#mobile-err").show();
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
-    } 
+    }
     var imageCode = $("#imagecode").val();
     if (!imageCode) {
         $("#image-code-err span").html("请填写验证码！");
@@ -43,30 +41,30 @@ function sendSMSCode() {
         return;
     }
     var imageCodeId = $(".input-group-addon img").attr("id");
-    $.get("/smscode/"+mobile, {code:imageCode, codeId:imageCodeId},
+    $.get("/api/v1.0/sms_codes/"+mobile, {code:imageCode, codeId:imageCodeId},
         function(data){
             if (0 != data.errno) {
-                $("#image-code-err span").html(data.errmsg); 
+                $("#image-code-err span").html(data.errmsg);
                 $("#image-code-err").show();
                 if (2 == data.errno || 3 == data.errno) {
                     generateImageCode();
                 }
                 $(".phonecode-a").attr("onclick", "sendSMSCode();");
-            }   
+            }
             else {
                 var $time = $(".phonecode-a");
                 var duration = 60;
                 var intervalid = setInterval(function(){
-                    $time.html(duration + "秒"); 
+                    $time.html(duration + "秒");
                     if(duration === 1){
                         clearInterval(intervalid);
-                        $time.html('获取验证码'); 
+                        $time.html('获取验证码');
                         $(".phonecode-a").attr("onclick", "sendSMSCode();");
                     }
                     duration = duration - 1;
-                }, 1000, 60); 
+                }, 1000, 60);
             }
-    }, 'json'); 
+    }, 'json');
 }
 
 $(document).ready(function() {
@@ -97,7 +95,7 @@ $(document).ready(function() {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
             return;
-        } 
+        }
         if (!phoneCode) {
             $("#phone-code-err span").html("请填写短信验证码！");
             $("#phone-code-err").show();
@@ -113,5 +111,36 @@ $(document).ready(function() {
             $("#password2-err").show();
             return;
         }
+
+        //1.调用ajax向后端发送注册请求/ 请求头，将
+        //url，type，data，contentTyp
+        //2. 注册成功，跳转到主页。否则将弹出异常信息
+        //电话，短信验证码，密码，确认密码
+
+        var req_data = {
+            "mobile":mobile,
+            "phoneCode":phoneCode,
+            "passwd":passwd,
+            "passwd2":passwd2
+        };
+        var req_json = JSON.stringify(req_data);
+
+        $.ajax({
+            url:"/api/v1.0/users",
+            type:"post",
+            data:req_json,
+            contentType:"application/json",
+            dataType:"json",
+            headers:{
+                "X-CSRFToken":getCookie("csrf_token")
+            },
+            success:function (resp) {
+                if(resp.errno=="0"){
+                    location.href = "/index.html"
+                }else {
+                    alert(resp.errmsg)
+                }
+            }
+        })
     });
 });

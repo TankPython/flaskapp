@@ -2,6 +2,8 @@
 from . import api
 from flask import current_app
 
+print "222222222222222222222222"
+
 @api.route("/index")
 def index():
     current_app.logger.error("error info")   # 笔记

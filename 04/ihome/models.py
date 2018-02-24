@@ -3,6 +3,7 @@
 from datetime import datetime
 from ihome import constants
 from . import db
+from werkzeug.security import generate_password_hash
 
 
 class BaseModel(object):
@@ -27,6 +28,14 @@ class User(BaseModel, db.Model):
     houses = db.relationship("House", backref="user")  # 用户发布的房屋
     orders = db.relationship("Order", backref="user")  # 用户下的订单
 
+    #用property装饰模型类的密码/对密码进行加密
+    @property
+    def password(self):
+        return self.password_hash
+
+    @password.setter
+    def password(self,value):
+        self.password_hash = generate_password_hash(value)
 
 class Area(BaseModel, db.Model):
     """城区"""

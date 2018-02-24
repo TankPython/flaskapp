@@ -1,7 +1,6 @@
 #coding:utf-8
 import redis
 
-
 class Config():   #笔记
     SECRET_KEY="kdjisofjdk;ddfge"
     #数据库

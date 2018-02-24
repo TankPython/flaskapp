@@ -5,7 +5,7 @@ from config import config_map
 import redis
 from flask_session import Session
 from flask_wtf import CSRFProtect
-
+from ihome.utils import transverer
 import logging
 from logging.handlers import RotatingFileHandler
 
@@ -37,17 +37,17 @@ def Create_app(config_name):
     # 初始化redis工具
     global redis_store
     redis_store = redis.StrictRedis(host=class_name.REDIS_HOST, port=class_name.REDIS_PORT)
-    # 利用flask-session，将session数据保存到redis中；
+    # 利用flask-session，将session数据保存到redis中到时候该怎么操作就怎么操作；
     Session(app)
     # 为flask补充csrf防护
     CSRFProtect(app)
-    #注册蓝图
-    from ihome import api_1_0  #笔记  循环导包的问题
-    app.register_blueprint(api_1_0.api, url_prefix="/api/v1.0")
 
     # 注册自定义的转换器
-    from ihome.utils import transverer
     app.url_map.converters["re"] = transverer.RegexConverter
+
+    # 注册蓝图
+    from ihome import api_1_0  # 笔记  循环导包的问题
+    app.register_blueprint(api_1_0.api, url_prefix="/api/v1.0")
 
     #注册静态文件的蓝图
     from ihome import web_html

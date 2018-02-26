@@ -25,21 +25,21 @@
         2. 注册成功，跳转到主页。否则将弹出异常信息
 
 笔记：
-    1,盐值  密码加密添加随机字符串
-    2.方法变属性
+    1,盐值  密码加密添加随机字符串 generate_password_hash(value) 加密会添加盐值
+    2.方法变属性(property)
     3.get 带参数   use "request.args.get"
+     request.form.get("key", type=str, default=None) 获取表单数据，request.args.get("key") 获取get请求参数，request.values.get("key") 获取所有参数。推荐使用request.values.get().
     4.if not all 参数的完整性
     5.redis 数据库查询为什么要捕获异常    因为redis连接是网络连接可能发生错误
     6.转换器没用是因为，要先有转换器再有蓝图    注册蓝图时所有的路由由app进行托管，似乎扫描了一遍；  导包所谓的扫描，会执行里面的代码比如打印
     7.csrf 模型类
     8.判断手机号格式re.match(r"1[34578]\d{9}", mobile)
     9.数据库错误就是手机号重复码？  异常是由sqlalchelmy封装提供的
-    10.generate_password_hash(value) 加密会添加盐值  是的
-    11.property
-    12.contentType: "application/json",    //该形式可以使服务器处理复杂请求体的json数据
-    13.var resq_json = JSON.stringify(resq_data);   json 转换
-    14.flask:json_dict = request.get_json()  django:dict=request.POST django是以post或者get请求形式
-    15.500 请求头不完整  400 url地址后面多了斜杠      405  两种情况
-    16.利用flask-session，将session数据保存到redis中到时候该怎么操作就怎么操作；
-    17.django 的事物操作1.将一个http request的所有数据库操作包裹在一个transaction中
+    10.contentType: "application/json",    //该形式可以使服务器处理复杂请求体的json数据
+    11.var resq_json = JSON.stringify(resq_data);   json 转换
+    12.flask:json_dict = request.get_json()  django:dict=request.POST django是以post或者get请求形式
+    13.500 请求头错误  400 url地址后面多了斜杠      405  两种情况
+    14.利用flask-session，将session数据保存到redis中到时候该怎么操作就怎么操作；
+    15.django 的事物操作1.将一个http request的所有数据库操作包裹在一个transaction中
        2.通过transaction中间件对http请求的事务拦截3.自己在view中通过装饰器灵活控制事务
+    16.数据库迁移做一波笔记 三个命令，upgrade后才会建表  migrate不支持中文

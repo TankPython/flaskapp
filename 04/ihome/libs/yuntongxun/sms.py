@@ -64,7 +64,7 @@ class CCP(object):
 
 
 ccp = CCP()
-ret = ccp.send_template_sms("18979907572", ["1234", "5"], 1)
-print ret
+# ret = ccp.send_template_sms("15813370410", ["1234", "5"], 1)
+# print ret
 
 

@@ -7,6 +7,7 @@ from ..utils.response_code import RET
 from ihome.models import User
 from ihome.libs.yuntongxun.sms import ccp
 import random
+from ihome.tasks.sms.tasks import send_sms
 
 # 1.视图处理请求，接收前端的验证码的编号
 @api.route("/img_codes/<code_id>")
@@ -84,16 +85,17 @@ def smscode(mobile):
         return jsonify(errno=RET.DBERR, errmsg="保存短信验证码异常")
 
     # 发送短信
-    try:
-        ret = ccp.send_template_sms(mobile, [code, "5"], 1)
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.DATAERR, errmsg="发送异常")
-
-    if ret == "0":
-        return jsonify(errno=RET.OK, errmsg="发送成功")
-    else:
-        return jsonify(errno=RET.DATAERR, errmsg="发送失败")
+    # try:
+    rets = send_sms.delay(mobile, [code, "5"], 1)
+    # except Exception as e:
+    #     current_app.logger.error(e)
+    #     return jsonify(errno=RET.DATAERR, errmsg="发送异常")
+    ret = rets.get()
+    print "4444444444444444444484885%s"%ret
+    # if ret == "0":
+    #     return jsonify(errno=RET.OK, errmsg="发送成功")
+    # else:
+    return jsonify(errno=RET.OK, errmsg="发送失败11111")
 
 """1.获取短信验证码
      /保存发送给这个手机号的记录，防止用户在60s内再次发出发送短信的操作/
